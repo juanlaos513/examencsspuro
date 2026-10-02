@@ -121,3 +121,88 @@ footer {
 .columna-footer a:hover {
     color: #1db0d4;
 }
+
+body{
+    background-color: #f2e6cf
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 16px;
+    gap: 6px;
+}
+
+form {
+    border: 1px solid white;
+    border-radius: 12px;
+    max-width: 500px;
+    margin: 0;}
+    
+input, select, textarea {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+button {
+  padding: 10px 20px;
+  background: #114c5f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f2e6cf              
+}
+
+@media (min-width: 768px) {
+  .layout {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+aside {
+    background-color: white;
+    color: white;
+    padding: 25px;
+    margin-top: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+aside h2 {
+    color: #114c5f;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+aside h3 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+aside p {
+    color: black;
+    margin-top: 0;
+    line-height: 1.6;
+}
+
+article {
+    background-color: white;
+    border: 1px solid black ;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 550px;
+}
+
+article h2 {
+    color: #114c5f;
+    margin-top: 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
