@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #f2e6cf;
+}
 
 header{
      display: flex;
@@ -121,3 +123,122 @@ footer {
 .columna-footer a:hover {
     color: #1db0d4;
 }
+
+/*parte laos*/
+
+/* estilo general clases de tarjetas */
+.banner img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin-top: 20px;
+}
+
+/*productos a la izquierda, aside a la derecha */
+.contenedor-tienda{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.productos h2{
+    color: #114c5f;
+    margin-top: 0;
+}
+
+/* Grid de tarjetas repartidas en 3 columnas */
+.grid-productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* de ahi pa abajo estilos multiples y generales de las tarjetas y etiquetas */
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(17, 76, 95, 0.2);
+}
+
+
+.tarjeta img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.tarjeta h3{
+    margin: 0;
+    color: #114c5f;
+}
+
+.descripcion{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #444444;
+    flex-grow: 1;
+}
+
+.precio{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4a6eb0;
+}
+
+.comprar{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #114c5f;
+    color: #f2f2f2;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.comprar:hover{
+    background-color: #1db0d4;
+}
+
+/* Aside */
+/* tamaño del aside */
+.info{
+    background-color: #114c5f;
+    color: #f2e6cf;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* titulo de aside */
+.info h2{
+    margin-top: 0;
+    color: #f2f2f2;
+}
+/* de ahi pa abajo sub titulos y parrafos del aside */
+.info h3{
+    margin-bottom: 5px;
+    color: #9cd2d3;
+    font-size: 16px;
+}
+
+.info p{
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.info a{
+    color: #1db0d4;
+    font-size: 14px;
+}
+
+
