@@ -1,0 +1,123 @@
+
+
+
+header{
+     display: flex;
+    background-color: #114c5f;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+.logo{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    margin: 10px;
+}
+h1{
+   color:#f2f2f2;
+    text-shadow: #1db0d4 6px 3px 10px;
+}
+.navegacion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    
+}
+
+.navegacion a{
+ color: white;
+    text-decoration: none;
+}
+
+.navegacion :hover{
+    color:#1db0d4;
+}
+
+.botonesheader{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-right: 2%;
+    
+
+}
+.botonesheader :hover{
+    background-color: rgb(26, 157, 197);
+}
+.ingresar{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    font-size: 17px;
+    border: solid;
+    border-color: rgb(55, 205, 219);
+    background-color: #1db0d4;
+}
+.ingresar:hover{
+    background-color: #4a6eb0;
+}
+.registrarse{
+    font-size: 17px;
+    color: #f2f2f2;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(101, 157, 241);
+    background-color: #4a6eb0;
+}
+
+/*--------------------------------*/
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    background-color: #114c5f;
+    color: #f2e6cf;
+    padding: 30px 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 20px;
+}
+
+.columna-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 250px;
+}
+
+.columna-footer h3 {
+    color: #9cd2d3;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.columna-footer p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.columna-footer a {
+    color: #f2e6cf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.columna-footer a:hover {
+    color: #1db0d4;
+}
